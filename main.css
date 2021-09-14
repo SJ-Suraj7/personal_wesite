@@ -1,0 +1,169 @@
+@import url("https://fonts.googleapis.com/css2?family=Rubik&display=swap");
+body {
+  background: black;
+}
+
+.intro {
+  font-family: Rubik;
+  font-size: 1.4em;
+  margin: 1em 0.1em 0.2em 0.2em;
+  line-height: 1.3em;
+  color: white;
+}
+
+.btn1, .btn2, .btn3, .btn4 {
+  border-radius: 0.9em;
+  background-color: rgba(66, 65, 65, 0.555);
+  font-size: 1em;
+  padding: 0.5em 1em;
+  margin: 0.5em;
+  margin-top: 1.5em;
+  font-family: Rubik;
+  border: none;
+  color: white;
+}
+
+.project {
+  height: 5em;
+  border-radius: 1em;
+}
+
+.menu1, .menu2, .menu3, .menu4 {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  height: 4em;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 1em;
+}
+
+.btninfo {
+  height: 2em;
+  border-radius: 1em;
+  background-color: rgba(66, 65, 65, 0.555);
+  font-size: 1em;
+  padding: 0.5em 1em;
+  color: white;
+  border: none;
+}
+
+.info11 {
+  color: white;
+  width: 60%;
+  font-size: 1em;
+}
+
+.rule {
+  margin-top: 0.1em;
+}
+
+.spamhe {
+  font-size: 1.2em;
+  font-family: Rubik;
+}
+
+.spam {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  line-height: 1em;
+}
+
+@media only screen and (min-width: 1080px) {
+  body {
+    margin: 7em 10em 0em 10em;
+  }
+  .intro {
+    font-family: Rubik;
+    font-size: 2.3em;
+    line-height: 1.2em;
+    color: white;
+    margin-bottom: 0em;
+  }
+  .nav {
+    margin-top: 0em;
+  }
+  .btn1, .btn2, .btn3, .btn4 {
+    border-radius: 0.9em;
+    background-color: rgba(66, 65, 65, 0.555);
+    font-size: 1em;
+    padding: 0.3em 1em;
+    margin-left: 0.7em;
+    margin-bottom: 5em;
+    font-family: Rubik;
+    border: none;
+    color: white;
+  }
+  .project {
+    height: 4em;
+    border-radius: 0.8em;
+  }
+  .menu1, .menu2, .menu3, .menu4 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 10em;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+    width: 50em;
+  }
+  .btninfo {
+    height: 2em;
+    border-radius: 0.9em;
+    background-color: rgba(66, 65, 65, 0.555);
+    font-size: 1em;
+    padding: 0.5em 1.1em;
+    margin-right: 0.1em;
+    color: white;
+    border: none;
+  }
+  .info11 {
+    color: white;
+    width: 60%;
+    font-size: 1.5em;
+  }
+  .spamhe {
+    font-size: 0.8em;
+    font-family: Rubik;
+  }
+  .spam {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    margin-top: 30px;
+    font-size: 0.6em;
+    line-height: 1.5em;
+    color: #acb1b1;
+  }
+  .part1 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    height: 2em;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .part2 {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+}
+/*# sourceMappingURL=main.css.map */
